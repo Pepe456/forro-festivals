@@ -16,4 +16,9 @@ public class FestivalController {
     public String getFestivals() {
         return "Festivals Hallo Julia";
     }
+
+    @RequestMapping(method = RequestMethod.GET, value = "festivals2")
+    public ResponseEntity<String> getFestivals2() {
+        return ResponseEntity.ok("Julia");
+    }
 }
