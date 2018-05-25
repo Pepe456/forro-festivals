@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class FestivalController {
 
     public FestivalController() {
-        
+
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "festivals")
     public String getFestivals() {
-        return "Festivals";
+        return "Festivals Hallo Julia";
     }
 }
