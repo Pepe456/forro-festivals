@@ -13,12 +13,7 @@ public class FestivalController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "festivals")
-    public String getFestivals() {
-        return "Festivals Hallo Julia";
-    }
-
-    @RequestMapping(method = RequestMethod.GET, value = "festivals2")
-    public ResponseEntity<String> getFestivals2() {
+    public ResponseEntity<String> getFestivals() {
         return ResponseEntity.ok("Julia");
     }
 }
